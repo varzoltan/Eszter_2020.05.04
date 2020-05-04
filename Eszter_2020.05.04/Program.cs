@@ -23,7 +23,27 @@ namespace Eszter_2020._05._04
             Console.Write("A két szám összege: " + (x + y));
             int z = x + y;
             Console.Write("\nA két szám összege: " + z);
-            Console.Write("\nA két szám összege: {0}", z);
+            Console.Write("\nA két szám különbsége: " + z);
+
+            //Írjuk ki a két szám különbségét!
+            Console.Write("\nA két szám különbsége: " + (x - y));
+            z = x - y;
+            Console.Write("\nA két szám különbsége: " + z);
+            Console.Write("\nA két szám különbsége: {0}", z);
+
+            //Írjuk ki a két szám szorzatát!
+            Console.Write("\nA két szám szorzata: " + (x * y));
+            Console.Write("\nA két szám szorzata: " + x * y);
+            z = x * y;
+            Console.Write("\nA két szám szorzata: " + z);
+            Console.Write("\nA két szám szorzata: {0}", z);
+
+            //Írjuk ki a két szám hányadosát!
+            Console.Write("\nA két szám hányadosa: " + (x / y));
+            Console.Write("\nA két szám hányadosa: " + x / y);
+            double k = (double)x / y;
+            Console.Write("\nA két szám hányadosa: " + k);
+            Console.Write("\nA két szám hányadosa: {0}",k);
             Console.ReadKey();
         }
     }
